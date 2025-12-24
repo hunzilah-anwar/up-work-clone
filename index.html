@@ -13,41 +13,50 @@
 </head>
 
 <body>
-    <header class="bg-white text-main px-4 md:px-[25px] py-5">
-        <div class="flex flex-col lg:flex-row justify-start items-center gap-4 lg:gap-8">
-            <a href="">
-                <svg class="w-[80px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 28" role="img"
-                    aria-hidden="true">
-                    <path fill=""
-                        d="M28.18,19.06A6.54,6.54,0,0,1,23,16c.67-5.34,2.62-7,5.2-7s4.54,2,4.54,5-2,5-4.54,5m0-13.34a7.77,7.77,0,0,0-7.9,6.08,26,26,0,0,1-1.93-5.62H12v7.9c0,2.87-1.3,5-3.85,5s-4-2.12-4-5l0-7.9H.49v7.9A8.61,8.61,0,0,0,2.6,20a7.27,7.27,0,0,0,5.54,2.35c4.41,0,7.5-3.39,7.5-8.24V8.77a25.87,25.87,0,0,0,3.66,8.05L17.34,28h3.72l1.29-7.92a11,11,0,0,0,1.36,1,8.32,8.32,0,0,0,4.14,1.28h.34A8.1,8.1,0,0,0,36.37,14a8.12,8.12,0,0,0-8.19-8.31">
-                    </path>
-                    <path fill=""
-                        d="M80.8,7.86V6.18H77.2V21.81h3.65V15.69c0-3.77.34-6.48,5.4-6.13V6c-2.36-.18-4.2.31-5.45,1.87">
-                    </path>
-                    <polygon fill="var(--nav-logo)"
-                        points="55.51 6.17 52.87 17.11 50.05 6.17 45.41 6.17 42.59 17.11 39.95 6.17 36.26 6.17 40.31 21.82 44.69 21.82 47.73 10.71 50.74 21.82 55.12 21.82 59.4 6.17 55.51 6.17">
-                    </polygon>
-                    <path fill=""
-                        d="M67.42,19.07c-2.59,0-4.53-2.05-4.53-5s2-5,4.53-5S72,11,72,14s-2,5-4.54,5m0-13.35A8.1,8.1,0,0,0,59.25,14,8.18,8.18,0,1,0,75.6,14a8.11,8.11,0,0,0-8.18-8.31">
-                    </path>
-                    <path fill=""
-                        d="M91.47,14.13h.84l5.09,7.69h4.11l-5.85-8.53a7.66,7.66,0,0,0,4.74-7.11H96.77c0,3.37-2.66,4.65-5.3,4.65V0H87.82V21.82h3.64Z">
-                    </path>
-                </svg>
-            </a>
-            <nav class="hidden lg:flex justify-between items-center w-[100%]">
-                <ul class="flex justify-center items-center gap-4">
-                    <li class="relative transition group">
-                        <a href="#" class="text-[14px] group-hover:text-hover">Find Talent <i
-                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition"></i></a>
+    <header class="bg-white text-main px-4 md:px-[25px] py-5 relative z-50">
+        <div class="flex flex-col lg:flex-row justify-between lg:justify-start items-center gap-4 lg:gap-8">
+            <div class="flex justify-between items-center w-full lg:w-auto">
+                <a href="">
+                    <svg class="w-[80px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 28" role="img"
+                        aria-hidden="true">
+                        <path fill=""
+                            d="M28.18,19.06A6.54,6.54,0,0,1,23,16c.67-5.34,2.62-7,5.2-7s4.54,2,4.54,5-2,5-4.54,5m0-13.34a7.77,7.77,0,0,0-7.9,6.08,26,26,0,0,1-1.93-5.62H12v7.9c0,2.87-1.3,5-3.85,5s-4-2.12-4-5l0-7.9H.49v7.9A8.61,8.61,0,0,0,2.6,20a7.27,7.27,0,0,0,5.54,2.35c4.41,0,7.5-3.39,7.5-8.24V8.77a25.87,25.87,0,0,0,3.66,8.05L17.34,28h3.72l1.29-7.92a11,11,0,0,0,1.36,1,8.32,8.32,0,0,0,4.14,1.28h.34A8.1,8.1,0,0,0,36.37,14a8.12,8.12,0,0,0-8.19-8.31">
+                        </path>
+                        <path fill=""
+                            d="M80.8,7.86V6.18H77.2V21.81h3.65V15.69c0-3.77.34-6.48,5.4-6.13V6c-2.36-.18-4.2.31-5.45,1.87">
+                        </path>
+                        <polygon fill="var(--nav-logo)"
+                            points="55.51 6.17 52.87 17.11 50.05 6.17 45.41 6.17 42.59 17.11 39.95 6.17 36.26 6.17 40.31 21.82 44.69 21.82 47.73 10.71 50.74 21.82 55.12 21.82 59.4 6.17 55.51 6.17">
+                        </polygon>
+                        <path fill=""
+                            d="M67.42,19.07c-2.59,0-4.53-2.05-4.53-5s2-5,4.53-5S72,11,72,14s-2,5-4.54,5m0-13.35A8.1,8.1,0,0,0,59.25,14,8.18,8.18,0,1,0,75.6,14a8.11,8.11,0,0,0-8.18-8.31">
+                        </path>
+                        <path fill=""
+                            d="M91.47,14.13h.84l5.09,7.69h4.11l-5.85-8.53a7.66,7.66,0,0,0,4.74-7.11H96.77c0,3.37-2.66,4.65-5.3,4.65V0H87.82V21.82h3.64Z">
+                        </path>
+                    </svg>
+                </a>
+                <button id="mobile-menu-btn" class="lg:hidden text-2xl focus:outline-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <nav id="main-nav"
+                class="hidden lg:flex w-full lg:w-[100%] flex-col lg:flex-row justify-between items-start lg:items-center gap-4 lg:gap-0 absolute lg:static top-[70px] left-0 bg-white p-4 lg:p-0 border-b lg:border-none shadow-lg lg:shadow-none">
+                <ul class="flex flex-col lg:flex-row justify-center items-start lg:items-center gap-4 w-full lg:w-auto">
+                    <li class="relative transition group w-full lg:w-auto">
+                        <a href="#"
+                            class="text-[14px] group-hover:text-hover flex justify-between items-center w-full lg:w-auto">Find
+                            Talent <i
+                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition ml-1"></i></a>
                         <div
-                            class="absolute hidden group-hover:block top-5 left-[-137px] bg-transparent pt-6 w-screen z-50">
+                            class="absolute hidden group-hover:block top-5 left-0 lg:left-[-137px] bg-transparent pt-6 w-full lg:w-screen z-50">
                             <div class="w-[100%] border-t-[1px] bg-white border-[#A5A5A5] pb-6 shadow-xl">
-                                <div class="grid grid-cols-4">
+                                <div class="flex flex-col lg:grid lg:grid-cols-4">
                                     <div class="text-basic">
                                         <ul class="p-6 flex gap-2 flex-col">
                                             <li
-                                                class="find-talent-a hover:bg-[#F1F1F1] flex justify-start items-start flex-col px-6 py-4 leading-8 relative">
+                                                class="find-talent-a hover:bg-[#F1F1F1] flex justify-start items-start flex-col px-6 py-4 leading-8 relative cursor-pointer">
                                                 <strong class="font-normal">Post a job and hire a pro</strong>
                                                 <span class="text-hover">Talent Marketplace</span>
                                                 <span class="absolute right-4 top-[35%] text-hover">
@@ -55,7 +64,7 @@
                                                 </span>
                                             </li>
                                             <li
-                                                class="find-talent-b hover:bg-[#F1F1F1] flex justify-start items-start flex-col px-6 py-4 leading-8 relative">
+                                                class="find-talent-b hover:bg-[#F1F1F1] flex justify-start items-start flex-col px-6 py-4 leading-8 relative cursor-pointer">
                                                 <strong class="font-normal">Post a job and hire a pro</strong>
                                                 <span class="text-hover">Talent Marketplace</span>
                                                 <span class="absolute right-4 top-[35%] text-hover">
@@ -63,7 +72,7 @@
                                                 </span>
                                             </li>
                                             <li
-                                                class="find-talent-c hover:bg-[#F1F1F1] flex justify-start items-start flex-col px-6 py-4 leading-8 relative">
+                                                class="find-talent-c hover:bg-[#F1F1F1] flex justify-start items-start flex-col px-6 py-4 leading-8 relative cursor-pointer">
                                                 <strong class="font-normal">Post a job and hire a pro</strong>
                                                 <span class="text-hover">Talent Marketplace</span>
                                                 <span class="absolute right-4 top-[35%] text-hover">
@@ -73,10 +82,12 @@
                                         </ul>
                                     </div>
                                     <div
-                                        class="find-talent-1 col-span-3 hidden relative border-l-[1px] mt-6 border-[#A5A5A5] text-basic">
-                                        <div class="bg-hover w-[60px] h-[4px] absolute -top-2 left-20"></div>
-                                        <div class="px-20 py-6 flex justify-between items-start">
-                                            <div class="w-[200px]">
+                                        class="find-talent-1 col-span-3 hidden relative border-t lg:border-t-0 lg:border-l-[1px] mt-0 lg:mt-6 border-[#A5A5A5] text-basic">
+                                        <div class="bg-hover w-[60px] h-[4px] absolute -top-2 left-20 hidden lg:block">
+                                        </div>
+                                        <div
+                                            class="px-6 lg:px-20 py-6 flex flex-col lg:flex-row justify-between items-start">
+                                            <div class="w-full lg:w-[200px] mb-6 lg:mb-0">
                                                 <strong class="relative text-[16px] font-normal">
                                                     <span>Talent Marketplace</span>
                                                     <sup class="text-[8px] absolute top-0 -right-4">TM</sup>
@@ -88,8 +99,9 @@
                                                 <a href="#" class="text-hover hover:underline transition">Hire on Talent
                                                     Marketplace <i class="fa-solid fa-angle-right text-[12px]"></i></a>
                                             </div>
-                                            <div class="w-[60%] mt-6 flex justify-start items-start gap-2">
-                                                <ul class="w-[100%]">
+                                            <div
+                                                class="w-full lg:w-[60%] mt-0 lg:mt-6 flex justify-start items-start gap-2">
+                                                <ul class="w-[100%] grid grid-cols-1 md:grid-cols-2 gap-2">
                                                     <li class="hover:bg-[#A5A5A5] w-[100%] p-2 rounded">
                                                         <a href="#">Development & IT</a>
                                                     </li>
@@ -125,10 +137,12 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="find-talent-2 col-span-3 hidden relative border-l-[1px] mt-6 border-[#A5A5A5] text-basic">
-                                        <div class="bg-hover w-[60px] h-[4px] absolute -top-2 left-20"></div>
-                                        <div class="px-20 py-6 flex justify-between items-start">
-                                            <div class="w-[200px]">
+                                        class="find-talent-2 col-span-3 hidden relative border-t lg:border-t-0 lg:border-l-[1px] mt-0 lg:mt-6 border-[#A5A5A5] text-basic">
+                                        <div class="bg-hover w-[60px] h-[4px] absolute -top-2 left-20 hidden lg:block">
+                                        </div>
+                                        <div
+                                            class="px-6 lg:px-20 py-6 flex flex-col lg:flex-row justify-between items-start">
+                                            <div class="w-full lg:w-[200px] mb-6 lg:mb-0">
                                                 <strong class="relative text-[16px] font-normal">
                                                     <span>Project Catalog</span>
                                                     <sup class="text-[8px] absolute top-0 -right-4">TM</sup>
@@ -138,12 +152,12 @@
                                                 </p>
                                                 <a href="#"
                                                     class="text-hover relative hover:underline transition">Browse
-                                                    Project <br>Catalog <span
-                                                        class="absolute top-[30%] right-[-100px]"><i
+                                                    Project <br class="hidden lg:block">Catalog <span
+                                                        class="absolute top-[30%] -right-4 lg:right-[-100px]"><i
                                                             class="fa-solid fa-angle-right text-[12px]"></i></span></a>
                                             </div>
                                             <div
-                                                class="w-[100%] flex justify-start items-start flex-wrap px-24 gap-y-4 gap-x-6 mt-20">
+                                                class="w-[100%] flex justify-start items-start flex-wrap px-0 lg:px-24 gap-4 lg:gap-x-6 mt-4 lg:mt-20">
                                                 <div
                                                     class="text-basic border-[1px] border-[#A5A5A5] rounded-[5px] overflow-hidden w-[150px]">
                                                     <img src="./assets/images/project-1.jpeg">
@@ -190,10 +204,12 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="find-talent-3 col-span-3 relative border-l-[1px] mt-6 border-[#A5A5A5] text-basic">
-                                        <div class="bg-hover w-[60px] h-[4px] absolute -top-2 left-20"></div>
-                                        <div class="px-20 py-6 flex justify-between items-start">
-                                            <div class="w-[200px]">
+                                        class="find-talent-3 col-span-3 hidden relative border-t lg:border-t-0 lg:border-l-[1px] mt-0 lg:mt-6 border-[#A5A5A5] text-basic">
+                                        <div class="bg-hover w-[60px] h-[4px] absolute -top-2 left-20 hidden lg:block">
+                                        </div>
+                                        <div
+                                            class="px-6 lg:px-20 py-6 flex flex-col lg:flex-row justify-between items-start">
+                                            <div class="w-full lg:w-[200px] mb-6 lg:mb-0">
                                                 <strong class="relative text-[16px] font-normal">
                                                     <span>Consultations</span>
                                                     <sup class="text-[8px] absolute top-0 -right-4">TM</sup>
@@ -204,11 +220,12 @@
                                                 </p>
                                                 <a href="#"
                                                     class="text-hover relative hover:underline transition">Explore all
-                                                    <br>categories <span class="absolute top-[30%] right-[-100px]"><i
+                                                    <br class="hidden lg:block">categories <span
+                                                        class="absolute top-[30%] -right-4 lg:right-[-100px]"><i
                                                             class="fa-solid fa-angle-right text-[12px]"></i></span></a>
                                             </div>
                                             <div
-                                                class="w-[100%] flex justify-start items-start flex-wrap px-24 gap-y-4 gap-x-6 mt-20">
+                                                class="w-[100%] flex justify-start items-start flex-wrap px-0 lg:px-24 gap-4 lg:gap-x-6 mt-4 lg:mt-20">
                                                 <div
                                                     class="text-basic border-[1px] border-[#A5A5A5] rounded-[5px] overflow-hidden w-[150px]">
                                                     <img src="./assets/images/industury-1.webp">
@@ -251,36 +268,38 @@
                             </div>
                         </div>
                     </li>
-                    <li class="relative transition group">
-                        <a href="#" class="text-[14px] group-hover:text-hover">Find Work <i
-                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition"></i></a>
+                    <li class="relative transition group w-full lg:w-auto">
+                        <a href="#"
+                            class="text-[14px] group-hover:text-hover flex justify-between items-center w-full lg:w-auto">Find
+                            Work <i
+                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition ml-1"></i></a>
                         <div
-                            class="absolute hidden group-hover:block top-5 left-[-243px] bg-transparent pt-6 w-screen z-50">
+                            class="absolute hidden group-hover:block top-5 left-0 lg:left-[-243px] bg-transparent pt-6 w-full lg:w-screen z-50">
                             <div class="w-[100%] border-t-[1px] bg-white border-[#A5A5A5] pb-6 shadow-xl">
                                 <div class="flex justify-start items-start flex-wrap gap-4 px-6 py-8">
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Ways to earn</h2>
                                         <p class="mt-2">
                                             Learn why Upwork has the right opportunities for you.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Find work for your skills</h2>
                                         <p class="mt-2">
                                             Explore the kind of work available in your field.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Win work with ads</h2>
                                         <p class="mt-2">
                                             Get noticed by the right client.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Join Freelancer Plus</h2>
                                         <p class="mt-2">
                                             Access more Connects, get strategic insights on competitors, and try out the
@@ -291,53 +310,57 @@
                             </div>
                         </div>
                     </li>
-                    <li class="relative transition group">
-                        <a href="#" class="text-[14px] group-hover:text-hover">Why Upwork <i
-                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition"></i></a>
+                    <li class="relative transition group w-full lg:w-auto">
+                        <a href="#"
+                            class="text-[14px] group-hover:text-hover flex justify-between items-center w-full lg:w-auto">Why
+                            Upwork <i
+                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition ml-1"></i></a>
                         <div
-                            class="absolute hidden group-hover:block top-5 left-[-344px] bg-transparent pt-6 w-screen z-50">
+                            class="absolute hidden group-hover:block top-5 left-0 lg:left-[-344px] bg-transparent pt-6 w-full lg:w-screen z-50">
                             <div
-                                class="flex justify-start items-start gap-10 w-[100%] border-t-[1px] bg-white border-[#A5A5A5] pb-6 shadow-xl">
-                                <div class="flex justify-start items-start flex-wrap gap-10 w-[50%] px-6 py-8">
+                                class="flex flex-col lg:flex-row justify-start items-start gap-10 w-[100%] border-t-[1px] bg-white border-[#A5A5A5] pb-6 shadow-xl">
+                                <div
+                                    class="flex justify-start items-start flex-wrap gap-10 w-full lg:w-[50%] px-6 py-8">
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Success stories</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             Discover how teams work strategically and grow together.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>How to hire</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             Learn about the different ways to get work done.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Reviews</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             See what it’s like to collaborate on Upwork.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>How to find work</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             Learn about how to grow your independent career.
                                         </p>
                                     </a>
                                 </div>
-                                <div class="flex justify-start items-start flex-col text-basic w-[50%]">
-                                    <h2 class="mt-20 mb-4">Featured resources</h2>
+                                <div
+                                    class="flex justify-start items-start flex-col text-basic w-full lg:w-[50%] px-6 lg:px-0">
+                                    <h2 class="mt-4 lg:mt-20 mb-4">Featured resources</h2>
                                     <input
-                                        class="border-[1px] border-[#A5A5A5] px-4 py-2 w-[50%] mt-2 rounded-[8px] hover:bg-[#A5A5A5] outline-0"
+                                        class="border-[1px] border-[#A5A5A5] px-4 py-2 w-full lg:w-[50%] mt-2 rounded-[8px] hover:bg-[#A5A5A5] outline-0"
                                         type="text" placeholder="How to Hire Freelancers on Upwork">
                                     <input
-                                        class="border-[1px] border-[#A5A5A5] px-4 py-2 w-[50%] mt-2 rounded-[8px] hover:bg-[#A5A5A5] outline-0"
+                                        class="border-[1px] border-[#A5A5A5] px-4 py-2 w-full lg:w-[50%] mt-2 rounded-[8px] hover:bg-[#A5A5A5] outline-0"
                                         type="text" placeholder="How to Use Upwork as a Freelancer">
                                     <input
-                                        class="border-[1px] border-[#A5A5A5] px-4 py-2 w-[50%] mt-2 rounded-[8px] hover:bg-[#A5A5A5] outline-0"
+                                        class="border-[1px] border-[#A5A5A5] px-4 py-2 w-full lg:w-[50%] mt-2 rounded-[8px] hover:bg-[#A5A5A5] outline-0"
                                         type="text" placeholder="Grow Your Freelance Business">
                                     <a href="#"
                                         class="text-hover transition text-[12px] underline hover:no-underline mt-6">More
@@ -346,29 +369,31 @@
                             </div>
                         </div>
                     </li>
-                    <li class="relative transition group">
-                        <a href="#" class="text-[14px] group-hover:text-hover">What’s new <i
-                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition"></i></a>
+                    <li class="relative transition group w-full lg:w-auto">
+                        <a href="#"
+                            class="text-[14px] group-hover:text-hover flex justify-between items-center w-full lg:w-auto">What’s
+                            new <i
+                                class="fa-solid fa-angle-down group-hover:rotate-180 group-hover:text-hover transition ml-1"></i></a>
                         <div
-                            class="absolute hidden group-hover:block top-5 left-[-460px] bg-transparent pt-6 w-screen z-50">
+                            class="absolute hidden group-hover:block top-5 left-0 lg:left-[-460px] bg-transparent pt-6 w-full lg:w-screen z-50">
                             <div class="w-[100%] border-t-[1px] bg-white border-[#A5A5A5] pb-6 shadow-xl">
                                 <div class="flex justify-start items-start flex-wrap gap-4 px-6 py-8">
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Upwork Updates</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             Check out our latest products, partners, and enhancements.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Blog</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             News and stories from the world’s work marketplace.
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Research Institute</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             Insights and tools for business leaders navigating a new world of work.Get
@@ -376,7 +401,7 @@
                                         </p>
                                     </a>
                                     <a href="#"
-                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-[250px]">
+                                        class="text-basic hover:bg-[#A5A5A5] px-6 py-4 rounded-[10px] w-full lg:w-[250px]">
                                         <h2>Release notes</h2>
                                         <p class="mt-2 text-[#5A5A5A]">
                                             Our latest product news, additions, and improvements.
@@ -386,10 +411,10 @@
                             </div>
                         </div>
                     </li>
-                    <li class="transition group">
-                        <a href="#" class="text-[14px] group-hover:text-hover">Pricing</a>
+                    <li class="transition group w-full lg:w-auto">
+                        <a href="#" class="text-[14px] group-hover:text-hover w-full lg:w-auto block">Pricing</a>
                     </li>
-                    <li class="group text-basic">
+                    <li class="group text-basic hidden lg:block">
                         <span class="cursor-pointer">For enterprise</span>
                         <span class="text-[12px] font-[600]">
                             <span class="opacity-0 group-hover:opacity-[100%]" style="transition-delay: 50ms;"> :
@@ -413,15 +438,24 @@
                         </span>
                     </li>
                 </ul>
-                <div>
-                    <a href="#" class="text-basic">Login</a>
+                <div class="flex flex-col lg:flex-row gap-4 lg:gap-0 mt-4 lg:mt-0 w-full lg:w-auto">
+                    <a href="#" class="text-basic text-center lg:text-left">Login</a>
                     <a href="#"
-                        class="text-basic ml-10 px-6 py-3 rounded-[10px] hover:bg-hover bg-green-700 transition text-white">Sign
+                        class="text-basic lg:ml-10 px-6 py-3 rounded-[10px] hover:bg-hover bg-green-700 transition text-white text-center">Sign
                         up</a>
                 </div>
             </nav>
 
         </div>
+        <script>
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mainNav = document.getElementById('main-nav');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                mainNav.classList.toggle('hidden');
+                mainNav.classList.toggle('flex');
+            });
+        </script>
     </header>
 
     <main>
@@ -438,9 +472,11 @@
                             <div class="p-4 md:p-[32px]">
                                 <div
                                     class="flex justify-between items-center border-0 bg-[#5C5855] border-[#5C5855] rounded-[160px]">
-                                    <button class="tab-btn w-full md:w-auto px-10 md:px-24 py-2 rounded-[160px] border-white">Find
+                                    <button
+                                        class="tab-btn w-full md:w-auto px-10 md:px-24 py-2 rounded-[160px] border-white">Find
                                         Talent</button>
-                                    <button class="tab-btn w-full md:w-auto px-10 md:px-24 py-2 rounded-[160px] border-white">Browse
+                                    <button
+                                        class="tab-btn w-full md:w-auto px-10 md:px-24 py-2 rounded-[160px] border-white">Browse
                                         Jobs</button>
                                 </div>
                                 <div class="tab-content flex flex-col">
@@ -452,7 +488,7 @@
                                             <i class="fas fa-search text-[#D2FF00]"></i> Search
                                         </button>
                                     </div>
-                                    <div class="flex justify-between items-center mt-8 px-6">
+                                    <div class="flex justify-center flex-wrap gap-6 items-center mt-8 px-6">
                                         <a href="#"><img src="./assets/images/logo-microsoft-grey.svg"></a>
                                         <a href="#"><img src="./assets/images/logo-airbnb-grey.svg"></a>
                                         <a href="#"><img src="./assets/images/logo-bissell-grey.svg"></a>
@@ -478,10 +514,10 @@
         <section>
             <div class="px-16 py-8">
                 <h1 class="text-[40px]">Explore millions of pros</h1>
-                <div class="flex justify-between items-center flex-wrap gap-4 mt-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -494,7 +530,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -507,7 +543,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -520,7 +556,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -533,7 +569,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -546,7 +582,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -559,7 +595,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -572,7 +608,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -585,7 +621,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -598,7 +634,7 @@
                     </div>
                     <div class="group cursor-pointer">
                         <div
-                            class="w-[230px] h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
+                            class="w-full h-[175px] p-[2px] rounded-[12px] transition ease-in-out duration-700 group-hover:bg-gradient-to-b group-hover:from-[#181818] group-hover:to-[#14a800]">
                             <div class="p-[4px] h-full bg-white rounded-[10px]">
                                 <div
                                     class="border-[2px] h-full p-[16px] rounded-[10px] bg-white border-[#e9e9e9] flex justify-between items-start flex-col">
@@ -623,8 +659,9 @@
                             finding work</button>
                     </div>
                 </div>
-                <div class="towork-tab-content flex justify-between items-start">
-                    <div class="w-[380px] group">
+                <div
+                    class="towork-tab-content flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 lg:gap-0">
+                    <div class="w-full lg:w-[32%] group">
                         <div class="overflow-hidden cursor-pointer w-full h-[260px] rounded-[20px] mb-4">
                             <video data-v-7c697863=""
                                 poster="https://res.cloudinary.com/upwork-cloud-acquisition-prod/video/upload/brontes/hiw-v2/hiw-client.jpg"
@@ -646,7 +683,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-[380px] group">
+                    <div class="w-full lg:w-[32%] group">
                         <div class="overflow-hidden cursor-pointer w-full h-[260px] rounded-[20px] mb-4">
                             <img class="object-cover w-full h-full" src="./assets/images/for_hiring_1.jpeg" alt="">
                         </div>
@@ -2239,9 +2276,12 @@
                             type="video/mp4" data-v-eff85f08="">
                     </video>
                     <div class="absolute top-0 left p-[48px] flex justify-center items-center flex-col w-full">
-                        <h1 class="text-[34px] mb-[32px] font-[500] text-white text-center">Find your next hire for a short task or long-term
+                        <h1 class="text-[34px] mb-[32px] font-[500] text-white text-center">Find your next hire for a
+                            short task or long-term
                             growth</h1>
-                        <button type="button" class="bg-white hover:bg-[#ffffffcc] px-[24px] py-2 rounded-[8px] text-[16px] transition cursor-pointer text-[#181818]">Explore Freelancers</button>
+                        <button type="button"
+                            class="bg-white hover:bg-[#ffffffcc] px-[24px] py-2 rounded-[8px] text-[16px] transition cursor-pointer text-[#181818]">Explore
+                            Freelancers</button>
                     </div>
                 </div>
             </div>
