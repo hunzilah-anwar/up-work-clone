@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-main: #181818;
+  --color-hover: #14a800;
+  --text-basic: 14px;
+  --default-font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --default-transition: transition-colors duration-500 ease-in-out;
+}
+
