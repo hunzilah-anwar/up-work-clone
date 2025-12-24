@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header class="bg-white text-main px-[25px] py-5">
-        <div class="flex justify-start items-center gap-8">
+    <header class="bg-white text-main px-4 md:px-[25px] py-5">
+        <div class="flex flex-col lg:flex-row justify-start items-center gap-4 lg:gap-8">
             <a href="">
                 <svg class="w-[80px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 28" role="img"
                     aria-hidden="true">
@@ -35,7 +35,7 @@
                     </path>
                 </svg>
             </a>
-            <nav class="flex justify-between items-center w-[100%]">
+            <nav class="hidden lg:flex justify-between items-center w-[100%]">
                 <ul class="flex justify-center items-center gap-4">
                     <li class="relative transition group">
                         <a href="#" class="text-[14px] group-hover:text-hover">Find Talent <i
@@ -428,19 +428,19 @@
         <section>
             <div class="px-16 py-8">
                 <div
-                    class="bg-[url('./assets/images/hero-section.jpg')] w-[100%] h-[628px] rounded-[25px] bg-cover p-[64px]">
+                    class="bg-[url('./assets/images/hero-section.jpg')] w-full h-auto min-h-[500px] lg:h-[628px] rounded-[25px] bg-center bg-cover p-6 md:p-[64px]">
                     <div class="max-w-[700px]">
-                        <h1 class="text-[72px] leading-[104%] font-[500] mb-[0.5em] text-white">
+                        <h1 class="text-4xl md:text-6xl lg:text-[72px] leading-[104%] font-[500] mb-[0.5em] text-white">
                             Connecting clients in need to freelancers who deliver
                         </h1>
                         <div
-                            class="mr-[64px] mt-[40px] rounded-[25px] border-[1px] border-[#ffffff26] bg-[#0000004d] backdrop-blur-[80px] text-white">
-                            <div class="p-[32px]">
+                            class="mr-0 lg:mr-[64px] mt-[40px] rounded-[25px] border-[1px] border-[#ffffff26] bg-[#0000004d] backdrop-blur-[80px] text-white">
+                            <div class="p-4 md:p-[32px]">
                                 <div
                                     class="flex justify-between items-center border-0 bg-[#5C5855] border-[#5C5855] rounded-[160px]">
-                                    <button class="tab-btn px-24 py-2 rounded-[160px] border-white">Find
+                                    <button class="tab-btn w-full md:w-auto px-10 md:px-24 py-2 rounded-[160px] border-white">Find
                                         Talent</button>
-                                    <button class="tab-btn px-24 py-2 rounded-[160px] border-white">Browse
+                                    <button class="tab-btn w-full md:w-auto px-10 md:px-24 py-2 rounded-[160px] border-white">Browse
                                         Jobs</button>
                                 </div>
                                 <div class="tab-content flex flex-col">
